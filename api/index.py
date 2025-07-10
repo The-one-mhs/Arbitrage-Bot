@@ -1,3 +1,6 @@
-from main import app  
+from main import app
+
+# For Vercel
+handler = app
 
 
