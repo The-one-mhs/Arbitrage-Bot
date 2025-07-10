@@ -1,3 +1,3 @@
-from main import app  # or whatever your app is called
+from main import app  
 
-handler = app
+
