@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arbitrage Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Watchlist</h2>
+      <ul id="coin-list">
+        <!-- Coin list will be populated here -->
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <h1>Arbitrage Opportunities</h1>
+        <p>Track price differences across exchanges</p>
+      </header>
+
+      <section id="opportunities">
+        <!-- Arbitrage data rendered here -->
+        <table id="opportunity-table">
+          <thead>
+            <tr>
+              <th>Coin</th>
+              <th>Buy From</th>
+              <th>Sell To</th>
+              <th>Profit (%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- JS will populate rows here -->
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
